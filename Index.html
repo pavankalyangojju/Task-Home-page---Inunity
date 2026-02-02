@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Buttons</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+
+        .button-container {
+            display: flex;
+            flex-direction: column; 
+            gap: 15px;
+            text-align: center;
+        }
+
+        button {
+            padding: 12px 25px;
+            font-size: 18px;
+            border: none;
+            border-radius: 8px;
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background-color: #45a049;
+            transform: scale(1.05);
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="button-container">
+        <a href="https://task-1-inunity.vercel.app/"><button>Task 1</button></a>
+        <a href="https://task-2-inunity.vercel.app/"><button>Task 2</button></a>
+        <a href="https://task-3-inunity.vercel.app/"><button>Task 3</button></a>
+        <a href="https://task-4-inunity.vercel.app/"><button>Task 4</button></a>
+        <a href="https://task-5-inunity.vercel.app/"><button>Task 5</button></a>
+    </div>
+</body>
+</html>
